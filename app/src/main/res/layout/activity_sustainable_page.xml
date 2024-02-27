@@ -90,5 +90,4 @@
         android:backgroundTint="@color/blue"
         android:text="Next" />
 
-
 </LinearLayout>
