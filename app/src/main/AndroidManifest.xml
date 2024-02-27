@@ -19,9 +19,6 @@
             android:name=".Recommended"
             android:exported="false" />
         <activity
-            android:name=".My_Impact"
-            android:exported="false" />
-        <activity
             android:name=".Sustainable_Page"
             android:exported="false" />
         <activity
