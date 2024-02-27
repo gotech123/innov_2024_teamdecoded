@@ -18,6 +18,9 @@
             android:name=".HomeScreen"
             android:exported="false" />
         <activity
+            android:name=".My_impact"
+            android:exported="false" />
+        <activity
             android:name=".VideoOptions"
             android:exported="false" />
         <activity
