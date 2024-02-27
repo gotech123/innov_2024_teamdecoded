@@ -13,6 +13,9 @@
         android:theme="@style/Theme.Ecalculator"
         tools:targetApi="31">
         <activity
+            android:name=".My_impact"
+            android:exported="false" />
+        <activity
             android:name=".VideoOptions"
             android:exported="false" />
         <activity
