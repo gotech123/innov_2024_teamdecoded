@@ -25,6 +25,7 @@
         android:textStyle="bold"
         android:textColor="@color/black"
         android:textSize="23dp"
+        android:fontFamily="sans-serif-black"
         android:layout_marginTop="30dp"
         android:text="How sustainable is your product?" />
 
