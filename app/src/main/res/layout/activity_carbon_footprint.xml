@@ -1,87 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".Carbon_Footprint">
 
-    <TextView
-        android:id="@+id/textView"
-        android:layout_width="match_parent"
-        android:layout_height="69dp"
-        android:gravity="center"
-        android:padding="20dp"
-        android:text="Carbon Footprint"
-        android:textColor="@color/black"
-        android:textSize="25dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:padding="6dp"
-        android:text="Select Activity Type"
-        android:textColor="@color/black"
-        android:textSize="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="40dp"
-        android:textStyle="bold" />
-
-    <TextView
-        android:id="@+id/driving"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/black"
-        android:text="Driving" />
-    <TextView
-        android:id="@+id/flying"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/black"
-        android:text="Flying" />
-    <TextView
-        android:id="@+id/homeenergy"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/black"
-        android:text="Home energy use" />
-    <TextView
-        android:id="@+id/Diet"
-        android:layout_width="match_parent"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:textColor="@color/black"
-        android:text="Diet" />
-    <TextView
-        android:id="@+id/shopping"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:textSize="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="30dp"
-        android:textColor="@color/black"
-        android:text="Shopping" />
-
-    <Button
-        android:id="@+id/getstarted"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="200dp"
-        android:textStyle="bold"
-        android:background="@color/blue"
-        android:text="Get Started" />
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
